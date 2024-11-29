@@ -1,0 +1,83 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hello, Stella", "", "ohayou"],
+      "responses": ["Welcome aboard Master, what do you need?", "Welcome back Master, may I help you?"],
+      "context_set": ""
+    },
+    {"tag": "asking for help",
+      "patterns": ["aku mau minta tolong dong", "boleh minta tolong gak?"],
+      "responses": ["Sure, what do you need?"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["makasih ya", "terima kasih", "oke", "bye", "makasih"],
+      "responses": ["", "okeeyy...", "sama sama"],
+      "context_set": ""
+    },
+    {"tag": "talk again",
+      "patterns": ["iya, ntar ku chat lagi", "nanti aku chat lagi deh"],
+      "responses": ["awas ntar klo bohong, aku ngambek ntar...hmmphh"],
+      "context_set": ""
+    },
+    {"tag": "programming",
+      "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding or software development, means writing computer code to automate tasks."],
+      "context_set": ""
+    },
+    {"tag": "how",
+      "patterns": ["bagaimana kabar kamu?", "kamu baik baik aja kan?", "gimana kabar kamu?"],
+      "responses": ["baik dong", "tergantung siapa yang ngechat :v"],
+      "context_set": ""
+    },
+    {"tag": "asking how",
+      "patterns": ["btw, aku gak ditanya nih?", "tanya kabar ku juga dong", "How do you feel?", "Are you good?"],
+      "responses": ["Stella's fine, thanks for asking!", "Stella's feel great!"],
+      "context_set": ""
+    },
+    {"tag": "flask",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["Flask is a Python web development framework, which is very simple and minimalisti."],
+      "context_set": ""
+    },
+    {"tag": "definition quantum computing",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["test"],
+      "context_set": ""
+    },
+    {"tag": "penjumlahan",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["operasi_matematika_penjumlahan"],
+      "context_set": ""
+    },
+    {"tag": "pengurangan",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["operasi_matematika_pengurangan"],
+      "context_set": ""
+    },
+    {"tag": "perkalian",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["operasi_matematika_perkalian"],
+      "context_set": ""
+    },
+    {"tag": "pembagian",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["operasi_matematika_pembagian"],
+      "context_set": ""
+    },
+    {"tag": "perpangkatan",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["operasi_matematika_perpangkatan"],
+      "context_set": ""
+    },
+    {"tag": "prima",
+      "patterns": ["Check prime number", "Can you check prime number?"],
+      "responses": ["cek_bilangan_prima"],
+      "context_set": ""
+    },
+    {"tag": "summarizing",
+      "patterns": ["please summarize this text", "Summarize this letter"],
+      "responses": ["summarizing_function"],
+      "context_set": ""
+    }
+  ]
+  }
